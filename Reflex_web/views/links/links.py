@@ -5,6 +5,9 @@ def links() -> rx.Component:
     return rx.vstack(
         link_button("google", "https://gooble.com"),
         link_button("youtube","https://www.youtube.com/watch?v=n2YrGsXJC6Y"),
+        link_button("google", "https://gooble.com"),
+        link_button("google", "https://gooble.com"),
+        width="100%"
         # link_button("otro"),
         # link_button("otro")
        
