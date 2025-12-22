@@ -6,7 +6,8 @@ def footer() -> rx.Component:
     return rx.vstack(
         rx.image(src="favicon.ico"),
         rx.link(f"google.es {datetime.date.today().year}",href="https://google.es", is_external=True ),
-        rx.text("Derechos reservados"),
-        align="center"
-       
+        rx.text("@Derechos reservados", size= "2"),
+        align="center",
+        margin="2%",
+        size= "6"
     )

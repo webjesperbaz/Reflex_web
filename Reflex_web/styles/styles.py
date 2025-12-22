@@ -27,6 +27,7 @@ BASE_STYLE= {
     }
 } 
 
+
 button_title_style= dict(
     font_size= Size.DEFAULT.value
 )

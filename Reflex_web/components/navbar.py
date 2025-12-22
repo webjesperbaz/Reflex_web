@@ -4,13 +4,13 @@ def navbar() -> rx.Component:
     return rx.hstack(
         rx.text(
             "Web Jesús",
-            height="40px"
-
+            
         ),
         position="sticky",
-        bg="blue",
+        bg="grey",
         padding_x="16px",
         padding_y="8px",
-        z_index="999"
+        # z_index="999"
+        top="0"
     )
   

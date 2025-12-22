@@ -3,6 +3,8 @@ from Reflex_web.components.navbar import navbar
 from Reflex_web.views.header.header import header
 from Reflex_web.views.links.links import links
 from Reflex_web.components.footer import footer
+from Reflex_web.components.title import title 
+from Reflex_web.components.link_icon import link_icon
 import Reflex_web.styles.styles as styles
 
 class State(rx.State):
@@ -18,13 +20,17 @@ def index() -> rx.Component:  #todo lo que pongamos a continuacion es lo que se 
              rx.vstack(
                 header(),
                 links(),
+                link_icon("https://google.es"),
                 max_width=styles.MAX_WIDTH,
                 width="100€",
-                margin_y="20px"
-            )
-    
+                margin_y="20px",
+                align="center"
+            ),
         ),
-        footer()
+        
+        footer(),
+    
+        
     )
 
 
