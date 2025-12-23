@@ -1,5 +1,7 @@
 from enum import Enum
 import reflex as rx
+from .colors import Color as Color
+from .colors import TextColor as TexColor
 
 # constantes:
 MAX_WIDTH="600px",
@@ -16,6 +18,7 @@ class Size(Enum):
 # Styles
 
 BASE_STYLE= {
+    "background_color": Color.BACKGROUND.value,
     rx.button: {
         "width": "100%",
         "height": "100%",
@@ -29,11 +32,19 @@ BASE_STYLE= {
 
 
 button_title_style= dict(
-    font_size= Size.DEFAULT.value
+    font_size= Size.DEFAULT.value,
+    color=TexColor.HEADER.value  
 )
     
 button_body_style= dict(
-    font_size= Size.MEDIUM.value
+    font_size= Size.MEDIUM.value,
+    color=TexColor.BODY.value
 )
     
     
+navbar_tittle_style= dict(
+    font_size= Size.DEFAULT.value,
+    font_weight="bold",    
+    font_family="confortaa",
+    
+)

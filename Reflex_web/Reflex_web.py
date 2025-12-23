@@ -7,6 +7,7 @@ from Reflex_web.components.title import title
 from Reflex_web.components.link_icon import link_icon
 import Reflex_web.styles.styles as styles
 
+
 class State(rx.State):
     pass
 
@@ -29,7 +30,7 @@ def index() -> rx.Component:  #todo lo que pongamos a continuacion es lo que se 
         ),
         
         footer(),
-    
+        
         
     )
 
