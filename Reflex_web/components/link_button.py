@@ -18,5 +18,6 @@ def link_button(text: str, url: str) -> rx.Component:
         ),
         href=url,
         is_external=True,    #para que cada vez que se le de a un boton, se abra en una nueva pagina del navegador y no se pierda la pg base
-        width="100%"
+        width="100%",
+        margin="2%"
     )

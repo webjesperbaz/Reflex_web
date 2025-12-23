@@ -9,10 +9,10 @@ def link_icon(url: str) -> rx.Component:
                 href=url,
                 is_external=True,
                 align="center",
-                margin="2%"
+                
 
-           )
-            
+           ),
+            margin="5%"
 
         
         
