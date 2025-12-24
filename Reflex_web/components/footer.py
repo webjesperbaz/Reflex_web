@@ -8,6 +8,6 @@ def footer() -> rx.Component:
         rx.link(f"google.es {datetime.date.today().year}",href="https://google.es", is_external=True ),
         rx.text("@Derechos reservados", size= "2"),
         align="center",
-        margin="2%",
-        size= "6"
+        margin="1%",
+       
     )
