@@ -20,20 +20,20 @@ def link_button(text: str, url: str) -> rx.Component:
                     margin= Size.MEDIUM.value
                 ),
                 rx.hstack(
-                    rx.text(text,  ),
-                   
-                    spacing="5"
-                )
-                
-                
+                    rx.text(text, size="3"),
+                    spacing="1"
+                ) 
             ),
-            bg=Color.CONTENT,
+            bg=Color.CONTENT, 
+            height="4em"
+                              
         ),
         href=url,
         is_external=True,    #para que cada vez que se le de a un boton, se abra en una nueva pagina del navegador y no se pierda la pg base
         width="100%",
         margin="1%",
-        padding="2%"
+        padding="2%",
+        
         
         
         

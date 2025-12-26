@@ -18,8 +18,8 @@ class Size(Enum):
 
 # Styles
 
-BASE_STYLE= { 
-    "font_family": Font.DEFAULT.value,                               #Para cambiar la web de manera global
+BASE_STYLE= {               #Para cambiar la web de manera global
+    "font_family": Font.DEFAULT.value,               
     "background_color": Color.BACKGROUND.value,
     rx.button: {
         "width": "100%",

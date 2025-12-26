@@ -11,7 +11,8 @@ def navbar() -> rx.Component:
         # ),
         rx.hstack(
             rx.text("Jesús", color=Color.BACKGROUND.value),
-            rx.text("Perea", color=Color.SECONDARI.value),
+            rx.text("&", color=Color.PRIMARI.value),
+            rx.text("Ana", color=Color.BACKGROUND.value),
             # spacing="2", # Espacio pequeño entre Jesús y Perea
             # font_weight="bold",    *lo hemos puesto todo en la parte de styles y color, para tenerlo mas odenado
             # font_family="confortaa",
