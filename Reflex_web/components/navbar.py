@@ -25,7 +25,7 @@ def navbar() -> rx.Component:
         bg=Color.CONTENT,
         padding_x=Size.BIG,
         padding_y=Size.DEFAULT,
-        # z_index="999"=
+        z_index="999",  #para qie el contenido pase por detras
         top="0",
         width="100%"
     )
