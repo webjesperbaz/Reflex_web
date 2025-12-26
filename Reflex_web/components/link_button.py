@@ -9,12 +9,12 @@ from Reflex_web.styles.colors import Color as Color
 
 
 # El nombre de la función DEBE ser link_button, todo en minúsculas
-def link_button(text: str, url: str) -> rx.Component:
+def link_button(text: str, url: str, image: str) -> rx.Component:
     return rx.link(
         rx.button(
             rx.hstack(
-                rx.icon(
-                    tag="arrow_big_right",
+                rx.image(
+                    src=image,
                     width=Size.BIG.value,
                     height=Size.BIG.value,
                     margin= Size.MEDIUM.value
