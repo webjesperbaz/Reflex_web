@@ -6,11 +6,11 @@ def header() -> rx.Component:
                     rx.hstack(
                        rx.avatar(fallback="J & A",
                             bg=Color.CONTENT.value,
-                            size="8",
+                            size="9",
                               ),
                         rx.avatar(
                             src="/alianzas.jpg",
-                            size= "8"
+                            size= "9"
                               ),
                         margin="5%"      
                     ),    

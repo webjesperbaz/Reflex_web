@@ -11,7 +11,7 @@ def links() -> rx.Component:
         link_button("Formulario para personas alergicas:", "https://gooble.com", "/icon/alergico.svg"),
         link_button("Subir fotos del evento:", "https://gooble.com", "/icon/upload.svg"),
         title("Contacto:", ),
-        link_button("Email para Jesús", "mailto:pereabazan@gmail.com", "/icon/iglesia1.svg"),
+        link_button("Email para Jesús", "mailto:pereabazan@gmail.com", "/icon/email.svg"),
         width="100%",
 
 
