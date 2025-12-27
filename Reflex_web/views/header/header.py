@@ -20,7 +20,7 @@ def header() -> rx.Component:
                     rx.text("Boda Jesús y Ana", font_size= "1.5em", margin_top="3%"),
                     rx.text("20-06-26", font_size= "1.5em", ),
                    
-                    rx.text("Texto de presentación de la boda................................. hasñhgajñhkjhakjlh..." , font_size= "1.2em", margin="3%",  align="center"),    
+                    rx.text("Por fin nos casamos, os esperamos a todos para que asistais tanto a la ceremonia como a la celebracion. A continuacion teneis información y ciertas herramientas que os informaran y ayudarán." , font_size= "1.2em", margin="3%",  align="center"),    
                     
                    
                     align="center",
