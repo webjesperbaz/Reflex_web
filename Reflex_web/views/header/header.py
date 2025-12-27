@@ -6,10 +6,12 @@ def header() -> rx.Component:
                     rx.hstack(
                        rx.avatar(fallback="J & A",
                             bg=Color.CONTENT.value,
+                            alt="Iniciales de J Y A",
                             size="9",
                               ),
                         rx.avatar(
                             src="/alianzas.jpg",
+                            alt="Alianzas entrelazadas de matrimonio",
                             size= "9"
                               ),
                         margin="5%"      

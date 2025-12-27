@@ -8,8 +8,8 @@ from Reflex_web.components.link_icon import link_icon
 import Reflex_web.styles.styles as styles
 
 
-class State(rx.State):
-    pass
+# class State(rx.State):       #Para hacer el backend
+#     pass
 
 def index() -> rx.Component:  #todo lo que pongamos a continuacion es lo que se pintará en la web
     
@@ -23,7 +23,7 @@ def index() -> rx.Component:  #todo lo que pongamos a continuacion es lo que se 
                 links(),
                 link_icon("https://google.es"),
                 max_width=styles.MAX_WIDTH,
-                width="100€",
+                width="95%",
                 margin_y="20px",
                 align="center"
             ),
